@@ -39,6 +39,7 @@ public class AS20240957 {
             System.out.println("1. Add City");
             System.out.println("2. List Cities");
             System.out.println("3. Rename City");
+            System.out.println("4. Remove City");
             System.out.println("0. Back to Main Menu");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
@@ -47,6 +48,7 @@ public class AS20240957 {
             if (choice == 1) addCity();
             else if (choice == 2) listCities();
             else if (choice == 3) renameCity();
+            else if (choice == 4) removeCity();
         }
     }
 
@@ -85,6 +87,23 @@ public class AS20240957 {
             System.out.println("Invalid city index.");
         }
     }
+
+    public static void removeCity() {
+        listCities();
+        System.out.print("Enter city number to remove: ");
+        int index = sc.nextInt();
+        sc.nextLine();
+        if (index >= 0 && index < cityCount) {
+            for (int i = index; i < cityCount - 1; i++) {
+                cities[i] = cities[i + 1];
+            }
+            cityCount--;
+            System.out.println("City removed.");
+        } else {
+            System.out.println("Invalid city number.");
+        }
+    }
+
 
 
 
