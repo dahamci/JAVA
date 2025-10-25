@@ -48,9 +48,9 @@ public class AS20240957 {
             sc.nextLine(); // clear newline
 
             if (choice == 1) cityManagement();
-            else if (choice == 2) System.out.println("Distance Management selected");
-            else if (choice == 3) System.out.println("New Delivery selected");
-            else if (choice == 4) System.out.println("Reports selected");
+            else if (choice == 2) distanceManagement();
+            else if (choice == 3) newDelivery();
+            else if (choice == 4) showReport();
             else if (choice == 0) System.out.println("Exiting...");
             else System.out.println("Invalid choice, try again.");
         }
