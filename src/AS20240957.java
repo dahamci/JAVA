@@ -9,6 +9,15 @@ public class AS20240957 {
     static int cityCount = 0;
 
 
+    static String[] vehicles = {"Van", "Truck", "Lorry"};
+    static int[] capacity = {1000, 5000, 10000};
+    static int[] rate = {30, 40, 80};
+    static int[] speed = {60, 50, 45};
+    static int[] efficiency = {12, 6, 4};
+    static double fuelPrice = 310.0;
+
+
+
     public static void main(String[] args){
         int choice = -1;
         while (choice != 0) {
