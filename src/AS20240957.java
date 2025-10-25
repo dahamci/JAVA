@@ -192,8 +192,24 @@ public class AS20240957 {
         System.out.println("Charge: " + charge);
         System.out.println("Time: " + time + " hrs");
 
+        fromCity[deliveryCount] = cities[s];
+        toCity[deliveryCount] = cities[d];
+        vehicleType[deliveryCount] = vehicles[v];
+        distanceUsed[deliveryCount] = dist;
+        weight[deliveryCount] = w;
+        baseCost[deliveryCount] = base;
+        fuelUsed[deliveryCount] = fuel;
+        fuelCost[deliveryCount] = fcost;
+        totalCost[deliveryCount] = total;
+        profit[deliveryCount] = prof;
+        customerCharge[deliveryCount] = charge;
+        timeTaken[deliveryCount] = time;
+        deliveryCount++;
+        System.out.println("Delivery saved successfully!");
 
-        System.out.println("Delivery created!");
+
+
+
     }
 
 
