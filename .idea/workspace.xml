@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add showReport() summary function" />
+    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="connect distanceManagement() to main menu">
+      <change beforePath="$PROJECT_DIR$/src/AS20240957.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS20240957.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761150359352</updated>
       <workItem from="1761150360930" duration="8000" />
-      <workItem from="1761375483092" duration="6439000" />
+      <workItem from="1761375483092" duration="6798000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of project">
       <option name="closed" value="true" />
@@ -183,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761413812533</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="connect distanceManagement() to main menu">
+      <option name="closed" value="true" />
+      <created>1761414125377</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761414125377</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +213,8 @@
     <MESSAGE value="add delivery cost and time calculations" />
     <MESSAGE value="save delivery record into arrays" />
     <MESSAGE value="add showReport() summary function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add showReport() summary function" />
+    <MESSAGE value="connect distanceManagement() to main menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect distanceManagement() to main menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

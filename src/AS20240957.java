@@ -160,21 +160,36 @@ public class AS20240957 {
             System.out.println("Add at least 2 cities first.");
             return;
         }
+
         listCities();
         System.out.print("Enter source city number: ");
         int s = sc.nextInt();
         System.out.print("Enter destination city number: ");
         int d = sc.nextInt();
-        System.out.print("Enter distance (km): ");
+
+        if (s < 0 || s >= cityCount || d < 0 || d >= cityCount || s == d) {
+            System.out.println("Invalid selection.");
+            return;
+        }
+
+        System.out.print("Enter distance between them (km): ");
         int dist = sc.nextInt();
         System.out.print("Enter package weight (kg): ");
         int w = sc.nextInt();
 
-        System.out.println("Select vehicle:");
+        // Vehicle selection
+        System.out.println("Select vehicle type:");
         for (int i = 0; i < vehicles.length; i++) {
-            System.out.println((i + 1) + ". " + vehicles[i]);
+            System.out.println((i + 1) + ". " + vehicles[i] + " (capacity: " + capacity[i] + ")");
         }
+        System.out.print("Enter choice: ");
         int v = sc.nextInt() - 1;
+
+        // Check valid vehicle and weight
+        if (v < 0 || v >= vehicles.length || w > capacity[v]) {
+            System.out.println("Invalid vehicle or overweight.");
+            return;
+        }
 
         double base = dist * rate[v] * (1 + (w / 10000.0));
         double fuel = dist / (double) efficiency[v];
