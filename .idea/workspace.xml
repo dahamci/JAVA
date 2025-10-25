@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add listCities to show added cities">
-      <change beforePath="$PROJECT_DIR$/src/AS20240957.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS20240957.java" afterDir="false" />
-    </list>
+    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add distanceManagement() to set distances between cities" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761150359352</updated>
       <workItem from="1761150360930" duration="8000" />
-      <workItem from="1761375483092" duration="5139000" />
+      <workItem from="1761375483092" duration="5442000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of project">
       <option name="closed" value="true" />
@@ -102,7 +100,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761412521900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add renameCity() function">
+      <option name="closed" value="true" />
+      <created>1761412625994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761412625994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add removeCity() option">
+      <option name="closed" value="true" />
+      <created>1761412768612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761412768612</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add distanceManagement() to set distances between cities">
+      <option name="closed" value="true" />
+      <created>1761412889457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761412889457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +135,10 @@
     <MESSAGE value="add project skeleton and main menu" />
     <MESSAGE value="add city management menu and addCity" />
     <MESSAGE value="add listCities to show added cities" />
-    <option name="LAST_COMMIT_MESSAGE" value="add listCities to show added cities" />
+    <MESSAGE value="add renameCity() function" />
+    <MESSAGE value="add removeCity() option" />
+    <MESSAGE value="add distanceManagement() to set distances between cities" />
+    <option name="LAST_COMMIT_MESSAGE" value="add distanceManagement() to set distances between cities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
