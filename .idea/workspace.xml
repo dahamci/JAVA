@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add arrays to store delivery records" />
+    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add newDelivery() basic structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,9 @@
     "accountId": "56b514be-0f82-451f-9dfc-628b53dd440a"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -66,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761150359352</updated>
       <workItem from="1761150360930" duration="8000" />
-      <workItem from="1761375483092" duration="5785000" />
+      <workItem from="1761375483092" duration="6107000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of project">
       <option name="closed" value="true" />
@@ -148,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761413236323</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add newDelivery() basic structure">
+      <option name="closed" value="true" />
+      <created>1761413344395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761413344395</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +177,8 @@
     <MESSAGE value="add distanceManagement() to set distances between cities" />
     <MESSAGE value="add vehicle reference data arrays" />
     <MESSAGE value="add arrays to store delivery records" />
-    <option name="LAST_COMMIT_MESSAGE" value="add arrays to store delivery records" />
+    <MESSAGE value="add newDelivery() basic structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add newDelivery() basic structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

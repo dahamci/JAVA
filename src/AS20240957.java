@@ -176,6 +176,23 @@ public class AS20240957 {
         }
         int v = sc.nextInt() - 1;
 
+        double base = dist * rate[v] * (1 + (w / 10000.0));
+        double fuel = dist / (double) efficiency[v];
+        double fcost = fuel * fuelPrice;
+        double total = base + fcost;
+        double prof = base * 0.25;
+        double charge = total + prof;
+        double time = dist / (double) speed[v];
+
+        System.out.println("\n--- DELIVERY SUMMARY ---");
+        System.out.println("Base Cost: " + base);
+        System.out.println("Fuel Cost: " + fcost);
+        System.out.println("Total Cost: " + total);
+        System.out.println("Profit: " + prof);
+        System.out.println("Charge: " + charge);
+        System.out.println("Time: " + time + " hrs");
+
+
         System.out.println("Delivery created!");
     }
 
