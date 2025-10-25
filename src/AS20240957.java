@@ -8,6 +8,21 @@ public class AS20240957 {
     static String[] cities = new String[10];
     static int cityCount = 0;
 
+    static String[] fromCity = new String[20];
+    static String[] toCity = new String[20];
+    static String[] vehicleType = new String[20];
+    static int[] distanceUsed = new int[20];
+    static int[] weight = new int[20];
+    static double[] baseCost = new double[20];
+    static double[] fuelUsed = new double[20];
+    static double[] fuelCost = new double[20];
+    static double[] totalCost = new double[20];
+    static double[] profit = new double[20];
+    static double[] customerCharge = new double[20];
+    static double[] timeTaken = new double[20];
+    static int deliveryCount = 0;
+
+
 
     static String[] vehicles = {"Van", "Truck", "Lorry"};
     static int[] capacity = {1000, 5000, 10000};
