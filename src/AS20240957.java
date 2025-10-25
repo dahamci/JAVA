@@ -2,6 +2,9 @@
 import java.util.Scanner;
 public class AS20240957 {
     static Scanner sc = new Scanner(System.in);
+
+    static int[][] distance = new int[10][10];
+
     static String[] cities = new String[10];
     static int cityCount = 0;
 
@@ -103,6 +106,31 @@ public class AS20240957 {
             System.out.println("Invalid city number.");
         }
     }
+
+    public static void distanceManagement() {
+        listCities();
+        if (cityCount < 2) {
+            System.out.println("Need at least 2 cities.");
+            return;
+        }
+
+        System.out.print("Enter city 1 number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter city 2 number: ");
+        int b = sc.nextInt();
+        System.out.print("Enter distance in km: ");
+        int d = sc.nextInt();
+        sc.nextLine();
+
+        if (a >= 0 && b >= 0 && a < cityCount && b < cityCount && a != b) {
+            distance[a][b] = d;
+            distance[b][a] = d;
+            System.out.println("Distance saved!");
+        } else {
+            System.out.println("Invalid entries.");
+        }
+    }
+
 
 
 
