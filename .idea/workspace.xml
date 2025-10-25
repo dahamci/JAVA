@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add distanceManagement() to set distances between cities" />
+    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="add arrays to store delivery records" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761150359352</updated>
       <workItem from="1761150360930" duration="8000" />
-      <workItem from="1761375483092" duration="5442000" />
+      <workItem from="1761375483092" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit of project">
       <option name="closed" value="true" />
@@ -124,7 +124,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761412889457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add distanceManagement() to set distances between cities">
+      <option name="closed" value="true" />
+      <created>1761412966043</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761412966043</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add vehicle reference data arrays">
+      <option name="closed" value="true" />
+      <created>1761413111312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761413111312</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add arrays to store delivery records">
+      <option name="closed" value="true" />
+      <created>1761413236323</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761413236323</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +162,9 @@
     <MESSAGE value="add renameCity() function" />
     <MESSAGE value="add removeCity() option" />
     <MESSAGE value="add distanceManagement() to set distances between cities" />
-    <option name="LAST_COMMIT_MESSAGE" value="add distanceManagement() to set distances between cities" />
+    <MESSAGE value="add vehicle reference data arrays" />
+    <MESSAGE value="add arrays to store delivery records" />
+    <option name="LAST_COMMIT_MESSAGE" value="add arrays to store delivery records" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

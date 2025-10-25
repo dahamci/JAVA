@@ -155,6 +155,31 @@ public class AS20240957 {
         }
     }
 
+    public static void newDelivery() {
+        if (cityCount < 2) {
+            System.out.println("Add at least 2 cities first.");
+            return;
+        }
+        listCities();
+        System.out.print("Enter source city number: ");
+        int s = sc.nextInt();
+        System.out.print("Enter destination city number: ");
+        int d = sc.nextInt();
+        System.out.print("Enter distance (km): ");
+        int dist = sc.nextInt();
+        System.out.print("Enter package weight (kg): ");
+        int w = sc.nextInt();
+
+        System.out.println("Select vehicle:");
+        for (int i = 0; i < vehicles.length; i++) {
+            System.out.println((i + 1) + ". " + vehicles[i]);
+        }
+        int v = sc.nextInt() - 1;
+
+        System.out.println("Delivery created!");
+    }
+
+
 
 
 
