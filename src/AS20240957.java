@@ -212,6 +212,22 @@ public class AS20240957 {
 
     }
 
+    public static void showReport() {
+        System.out.println("\n--- REPORT ---");
+        System.out.println("Total deliveries: " + deliveryCount);
+        double totalProfit = 0;
+        double totalDistance = 0;
+
+        for (int i = 0; i < deliveryCount; i++) {
+            totalProfit += profit[i];
+            totalDistance += distanceUsed[i];
+        }
+
+        System.out.println("Total profit: " + totalProfit);
+        System.out.println("Total distance: " + totalDistance);
+    }
+
+
 
 
 
