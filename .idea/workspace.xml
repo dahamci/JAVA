@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semAssigment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AS20240957.java" afterDir="false" />
+    <list default="true" id="fbab3370-3c57-4967-b9d0-77992c7cfd97" name="Changes" comment="Initial commit of project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +23,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/dahamci/semAssigment.git",
+    "url": "https://github.com/dahamci/JAVA.git",
     "accountId": "56b514be-0f82-451f-9dfc-628b53dd440a"
   }
 }]]></component>
@@ -74,12 +68,25 @@
       <option name="presentableId" value="Default" />
       <updated>1761150359352</updated>
       <workItem from="1761150360930" duration="8000" />
-      <workItem from="1761375483092" duration="1292000" />
+      <workItem from="1761375483092" duration="2645000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit of project">
+      <option name="closed" value="true" />
+      <created>1761406596838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761406596838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
