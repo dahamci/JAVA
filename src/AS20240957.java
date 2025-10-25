@@ -37,12 +37,14 @@ public class AS20240957 {
         while (choice != 0) {
             System.out.println("\n--- CITY MANAGEMENT ---");
             System.out.println("1. Add City");
+            System.out.println("2. List Cities");
             System.out.println("0. Back to Main Menu");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
             sc.nextLine();
 
             if (choice == 1) addCity();
+            else if (choice == 2) listCities();
         }
     }
 
@@ -58,5 +60,14 @@ public class AS20240957 {
         cityCount++;
         System.out.println("City added successfully.");
     }
+
+    public static void listCities() {
+        System.out.println("\n--- CITY LIST ---");
+        for (int i = 0; i < cityCount; i++) {
+            System.out.println(i + " - " + cities[i]);
+        }
+        if (cityCount == 0) System.out.println("No cities yet.");
+    }
+
 
 }
